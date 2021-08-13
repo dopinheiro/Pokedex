@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: rgb(79, 79, 79);
+    font-weight: 500;
+}
+
+#container {
+    width: 700px;
+    padding: 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    gap: 25px 15px;
+}
+
+.card {
+    background-color: white;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.poke-name span {
+    text-align: center;
+}
+
+.sprite img {
+    width: 100%
+}
+
+.grass {
+    background-color: rgba(0, 128, 72,0.2);
+    border: 2px solid rgb(0, 128, 72);
+}
+
+.fire {
+    background-color: rgba(199, 113, 0, 0.2);
+    border: 2px solid rgb(199, 113, 0);
+}
+
+.water {
+    background-color: rgba(49, 125, 206, 0.2);
+    border: 2px solid rgb(49, 125, 206);
+} 
+
+.bug {
+    background-color: rgba(134, 199, 118, 0.2);
+    border: 2px solid rgb(134, 199, 118);
+} 
+
+.normal {
+    background-color: rgba(143, 143, 143, 0.2);
+    border: 2px solid rgb(143, 143, 143);
+} 
+
+.poison {
+    background-color: rgba(181, 139, 178, 0.2);
+    border: 2px solid rgb(181, 139, 178);
+} 
+
+.electric {
+    background-color: rgba(240, 210, 121, 0.2);
+    border: 2px solid rgb(240, 210, 121);
+} 
+
+.fairy {
+    background-color: rgba(250, 209, 212, 0.2);
+    border: 2px solid rgb(250, 209, 212);
+} 
+
+.fighting {
+    background-color: rgba(252, 194, 155, 0.2);
+    border: 2px solid rgb(252, 194, 155);
+} 
+
+.ground {
+    background-color: rgba(153, 131, 87, 0.2);
+    border: 2px solid rgb(153, 131, 87);
+} 
+
+
+@media (max-width: 700px) {
+    #container {
+        width: 370px;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
