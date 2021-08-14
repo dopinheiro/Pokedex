@@ -91,5 +91,8 @@ body {
     #container {
         width: 370px;
         grid-template-columns: 1fr 1fr 1fr ;
+    },
+    #card {
+        width: 80px;
     }
 }
